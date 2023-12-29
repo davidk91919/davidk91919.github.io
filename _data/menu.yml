@@ -3,7 +3,7 @@ entries:
     entries:
       - title: stat phd student in the field of causal inference, mainly works on quantile based test methods, permutation test asymptotics
       - title: naver blog
-        url: blog.naver.com/mmysides
+        url: href="http://www.something.com"
   - title: all
     url: archive.html
   - title: recent
