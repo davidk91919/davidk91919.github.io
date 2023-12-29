@@ -10,9 +10,7 @@ entries:
       show_more: true
       show_more_text: show more
       show_more_url: archive.html
-  - title: about
-    url: about.html
-  - title: research topics
-    url: research_topics.html
+  - title: topics
+    url: topics.html
   - title: naver blog: blog.naver.com/mmysides  
   - title: special thanks to jyterencekim
