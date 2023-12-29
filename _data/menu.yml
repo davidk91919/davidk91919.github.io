@@ -1,7 +1,7 @@
 entries:
   - title: info
     entries:
-      - title: stat phd student in the field of causal inference, mainly works on permutation test asymptotics, quantile based tests
+      - title: mainly works on permutation test asymptotics, quantile based tests
   - title: all
     url: archive.html
   - title: recent
@@ -10,7 +10,8 @@ entries:
       show_more: true
       show_more_text: show more
       show_more_url: archive.html
+  - title: about
+    url: about.html
   - title: topics
     url: topics.html
-  - title: naver blog url mmysides  
   - title: special thanks to jyterencekim
