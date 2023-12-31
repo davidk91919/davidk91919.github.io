@@ -1,17 +1,17 @@
 entries:
   - title: info
     entries:
-      - title: mainly works on permutation test asymptotics, quantile based tests
-  - title: all
-    url: archive.html
+      - title: permutation test asymptotics / quantile based tests
+  - title: about
+    url: about.html
+  - title: research
+    url: research.html
+  - title: topics
+    url: topics.html
   - title: recent
     post_list:
       limit: 10
       show_more: true
       show_more_text: show more
       show_more_url: archive.html
-  - title: about
-    url: about.html
-  - title: topics
-    url: topics.html
   - title: special thanks to jyterencekim
