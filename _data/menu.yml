@@ -8,7 +8,7 @@ entries:
     url: research.html
   - title: topics
     url: topics.html
-  - title: recent
+  - title: posts
     post_list:
       limit: 10
       show_more: true
