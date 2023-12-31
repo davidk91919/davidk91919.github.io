@@ -7,5 +7,4 @@
 (HS) Dealing with Multiple Hilbert Spaces in the Perspective of Category Theory
 
 (PT) Get Some General Result on Convergence of Permutation Test Asymptotics
-   - will maybe use Edgeworth expansion
 
