@@ -1,0 +1,40 @@
+---
+layout: post
+title: 'note'
+---
+
+- On Hall's Bootstrap and Edgeworth Expansion
+
+1장을 다 읽고 2장 읽는 중. 1.1 1.2 정리에 대한 감을 잡았는데 '이미 충분히 예쁜' estimator가 
+있을 때 붓스트랩 iteration이 그걸 한층 더 좋게 할 수 있다는 결과로 받아들임. 충분히 예쁜 상황이란 estimator가 smooth functional로 표현되고 일종의 원점에서의 infinitestimal change가 non-zero constant에 대한 거다. 
+거기다가 원래 estimator의 수렴 속도가 -j/2가 아니라 -j로 갈 때는 추가적인 조건이 필요한데 이게 뭔가 semi-parameteric setting에서의 influence function의 예쁜 behavior와 비슷하다. 이런 점에서 이것도 뭔가 
+요새 공부하는 doubly robust estimator라든지 two-stage estimator의 맥락에서 일반화할 수 있지 않나.. 그러니까 일반적인 Hilbert Space의 Geometry로. 다른 얘기지만 이런 순간들이 참 문학적인 것 같다. 전혀 다른 맥락에서 같은 이야기들이- 
+마치 언어 게임들에서의 비유처럼- 반복된다고 느낄 때 이런 순간들이 참 시적이라고 느낀다.
+
+2장은 Edgeworth Expansion의 principle에 대한 장. 막 읽기 시작했고 정독해야함. 직접 손으로 해봐야할 것들 - characteristic function을 통한 derivation. 초보적인 건데 까먹었거나 익숙하지가 않다. 내 수준에 반성..
+
+- Variational Inference
+
+PRML를 읽는 스터디를 고파스에서 구했다. 분명 대학원 게시판에서 구했는데 모아보니 나 빼고 다 학부생임.. 여튼 토픽 하나를 정해서 관심있는 논문들이랑 같이 읽기로 했는데 오늘 지하철 타는 길에 Variational Inference 리뷰 페이퍼를 훑어봄. 
+통계학자들이 원래 하던 얘기랑 엄청 벗어난 건 아니지만 눈에 띄던 포인트들이 있었고 이것들을 추가해서 발제 준비를 해봐야겠다:
+
+(1) MCMC라든지 하는 sampling의 literature가 아니라 KL divergence에 대한 optimization을 통해 distribution을 직접 유추하려는 방법이라는 점. 이 점에서 KL divergence는 target distribution와 추정량과의 distributional distance라고 이해할 수 있음.
+
+(2) MCMC를 안쓰고 variational inference를 쓰는 이유는 parameter size가 너무 커질 때 sampling에서 계산해야할 일이 너무 많이 생기기 때문인 것으로 대충 이해.
+
+(3) optimization은 구체적으로 distributional family에 대해서 되는데 그건 parameteric family이고 또 거기에 추가적으로 각 parameter vector들이 서로 독립이라는 가정을 함. 본문에서 말했듯 이건 꽤 쎈 가정. 근데 원래 KL divergence에서 penalty를 주는 부분으로 상쇄될 수도 있는듯? 이 부분이 재밌었음.
+
+(4) 그리고 optimization process는 EM algorithm을 쓰고, 그리고 뭔가 greedy하게 optimize를 하는데 - 그러니까 나머지들을 고정시키고 하나씩 순서대로 optimize를 한다는 것. 그래서 local optimum으로의 수렴은 보장되지만 뭐 convex라든지 하는 추가 조건이 있으면 global optimum으로의 수렴은 보장이 안되겠지. 그런 점에서 한편으론 MCMC에서의 Gibbs sampling과 매우 유사하다고 느꼈는데 본문에서 또 언급해줌.
+
+(5) 일반적인 exponential family에 대한 내용이 챕터 4인데 이건 아직 안 읽어봄. 그리고 챕터 5는 further problems.
+
+발표 준비할 때 예시들을 많이 들어가면서 설명해야겠다 내가 젤 감명깊게 들었던 sampling 수업을 하신 Yuguo Chen 교수님이 그랬듯이..
+
+- Some Intuitions
+
+Tsiatis의 Theorem 3.2를 직관적으로 이해해보고자 함. parameter theta vector를 q-dim beta(parameter of interest)와 eta(nuisance parameter)로 쪼갤 수 있을 때, (eta의 dimension을 specify하지 않는 이유는 semi-parameteric case도 염두에 둔 것)
+score function을 일종의 정보를 담고 있는 vector로 이해해보자(이거 자체가 이미 충분히 예쁜 상황이긴 함).
+또 한편으론, asymptotically linear는 q-dim influence function이 beta에 대한 asymptotically 필수적인 정보들을 unbiased하게 담고 있다는 상황 또는 가정으로 이해할 수 있다. (이 점에서 doubly robust라든가 하는 거는 influence function들의 정보가 biased 되어 있을 때 그걸 한 스텝 바로 잡는 흐름이라고 이해할 수 있다)
+그럼 3.2의 statement는 asymptotically linear한 상황에서 functional Hilbert space에서의 influence function과 정보 vector의 내적, 즉 러프하게 말하자면 베타의 전체 distribution의 parameter로의 투사로 이해할 수 있다. 그럼 statement의 결과는 beta와 eta가 orthogonal하다(이 부분은 직관일 뿐 체크는 안해봄) 결과로 이해할 수 있고.. 이렇게 이해하면 매우매우 자연스럽게 받아들일 수 있는 듯.
+
+한편으로 오늘은 고등학교 친구 준하와 오래 이야기했는데 거시 경제를 공부하는 친구고.. 이야기하다가 identification에 대한 포인트를 깊게 생각해봄. 이게 항상 crucial하지만 귀찮아서 넘긴 부분인데 언제 한번 제대로 들여다봐야겠다는 생각. 
