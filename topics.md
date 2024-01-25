@@ -1,10 +1,10 @@
 
 
-(topics arranged; 12/30/2023)
+(topics arranged; 01/25/2024)
 
-(DML) Improving and Applying Doubly Robust Learning Methods to Staitstical Inferences
+- Improving and Applying Doubly Robust Learning Methods to Staitstical Inferences
 
-(HS) Dealing with Multiple Hilbert Spaces in the Perspective of Category Theory
+- Understanding Statistical Elements in the Hilbert Space Viewpoint
 
-(PT) Get Some General Result on Convergence of Permutation Test Asymptotics
+- Get Some General Result on Permutation Test Asymptotics
 
