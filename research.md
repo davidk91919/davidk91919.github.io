@@ -1,7 +1,7 @@
-Combining Multiple Rank Sum Statistics to Improve Power
+Working Paper on Quantile Based Test
 (w. Xinran Li, Jake Bowers, Yongchang Su)
-(working paper)
 
-Asymptotic Valid Two-Sample Permutation Test on Strongly Mixing Conditions
+
+Working Paper on Two-sample Permutation Test
 (w. EunYi Chung)
-(working paper)
+
