@@ -6,7 +6,6 @@ entries:
   - title: topics
     url: topics.html
   - title: posts
-    post_list:
     url: archive.html
   - title: sp24 soffice hours
     url: https://docs.google.com/spreadsheets/d/1U_WXcm3KkqcGztDEaq-1kM8_bbQT3uIeMLgdDV3Olpo/edit?usp=sharing
