@@ -11,4 +11,6 @@ entries:
       show_more: true
       show_more_text: show more
       show_more_url: archive.html
+  - title: Office Hours
+    url: https://docs.google.com/spreadsheets/d/1U_WXcm3KkqcGztDEaq-1kM8_bbQT3uIeMLgdDV3Olpo/edit?usp=sharing
   - title: special thanks to jyterencekim
