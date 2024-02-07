@@ -8,6 +8,7 @@ entries:
   - title: posts
     url: archive.html
   - title: sp24 office hours
-    entries: February 12nd, 04:00 - 05:00, Grainger 413
-    url: https://docs.google.com/spreadsheets/d/1U_WXcm3KkqcGztDEaq-1kM8_bbQT3uIeMLgdDV3Olpo/edit?usp=sharing
+    entries: 
+      - title: February 12nd, 04:00 - 05:00, Grainger 413
+      url: https://docs.google.com/spreadsheets/d/1U_WXcm3KkqcGztDEaq-1kM8_bbQT3uIeMLgdDV3Olpo/edit?usp=sharing
   - title: special thanks to jyterencekim
