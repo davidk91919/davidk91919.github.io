@@ -7,8 +7,4 @@ entries:
     url: topics.html
   - title: posts
     url: archive.html
-  - title: sp24 office hours
-    entries: 
-      - title: ~Midterm2 Office Hours; Sign up Here
-        url: https://docs.google.com/spreadsheets/d/1U_WXcm3KkqcGztDEaq-1kM8_bbQT3uIeMLgdDV3Olpo/edit?usp=sharing
   - title: special thanks to jyterencekim
