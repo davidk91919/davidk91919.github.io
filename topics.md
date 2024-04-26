@@ -1,8 +1,10 @@
 
 
-(topics arranged; 03/20/2024)
+(topics arranged; 04/26/2024)
 
-- Matching / Inference on Stratified Data
+- General Inference on Time Series Data
 
-- Randomization Distribution Asymptotics
+- Permutation Distribution Asymptotics
+
+- Higher-order Approximation on the Permutation Distribution 
 
