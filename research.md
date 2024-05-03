@@ -3,5 +3,7 @@ Working Paper on Quantile Based Test
 
 
 Working Paper on Two-sample Permutation Test
-(w. EunYi Chung)
+(w. EunYi Chung, Ji Hyung Lee)
 
+
+Working Paper on Higher-order Corrections on Permutation Test
