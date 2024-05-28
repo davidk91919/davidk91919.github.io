@@ -1,10 +1,10 @@
 
 
-(topics arranged; 04/26/2024)
-
-- General Inference on Time Series Data
+(topics arranged; 05/28/2024)
 
 - Permutation Distribution Asymptotics
 
-- Higher-order Approximation on the Permutation Distribution 
+- General Inference on Time Series
+
+- Semiparameric Efficiency(or Doubly Robust Machine Learning)
 
