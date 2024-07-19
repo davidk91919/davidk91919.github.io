@@ -6,5 +6,8 @@ entries:
   - title: topics
     url: topics.html
   - title: posts
-    url: archive.html
+    limit: 10
+      show_more: true
+      show_more_text: show more
+      show_more_url: archive.html
   - title: special thanks to jyterencekim
