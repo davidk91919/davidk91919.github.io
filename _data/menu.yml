@@ -5,8 +5,9 @@ entries:
     url: research.html
   - title: topics
     url: topics.html
-  - title: posts
-    limit: 10
+  - title: post
+    post_list:
+      limit: 10
       show_more: true
       show_more_text: show more
       show_more_url: archive.html
