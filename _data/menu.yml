@@ -7,7 +7,7 @@ entries:
     url: topics.html
   - title: post
     post_list:
-      limit: 10
+      limit: 5
       show_more: true
       show_more_text: show more
       show_more_url: archive.html
