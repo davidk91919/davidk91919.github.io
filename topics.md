@@ -1,6 +1,6 @@
 
 
-(topics arranged; 06/21/2024)
+(last update; 08/22/2024)
 
 Research Topics
 
@@ -8,5 +8,5 @@ Research Topics
 
 - General Inference on Time Series
 
-- Semiparameric Efficiency (or Doubly Robust Machine Learning)
+- Topics in Causal Inference(Interference, Matching, DML)
 
